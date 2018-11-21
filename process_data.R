@@ -2,7 +2,7 @@ library(tidyverse)
 library(httr)
 library(fs)
 
-# code from my midterm2 to get rep advantage forecast and result
+# code from midterm2 to get rep advantage forecast and result
 # read result data
 
 x <- read_csv("mt_2_results.csv")
