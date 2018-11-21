@@ -1,7 +1,6 @@
 library(tidyverse)
 library(httr)
 library(fs)
-library(scales)
 
 # code from midterm2 to get rep advantage forecast and result
 # read result data
