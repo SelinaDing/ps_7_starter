@@ -7,7 +7,7 @@ library(fs)
 
 x <- read_csv("mt_2_results.csv")
 
-# only house races
+# only house race
 
 y <- x %>% filter(district != "sen",
              district != "gov")
